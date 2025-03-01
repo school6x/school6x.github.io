@@ -1,0 +1,15 @@
+{
+  "settings": {
+    "limitNumber": 58
+  },
+  "games": [
+    {
+      "name": "Retro Bowl",
+      "thumb": "https://classroom6x.gg/thumbs/icons2/retro-bowl.avif",
+      "link": "https://retrobowl.click/game/retro-bowl",
+      "sort": 0,
+      "category": "Sports",
+      "slug": "retro-bowl"
+    }
+  ]
+}

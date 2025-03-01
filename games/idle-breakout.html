@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <!--  Sat, 01 Mar 2025 05:57:51 GMT -->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Idle Breakout - Play HTML5 Games For Free</title>
+    <meta name="description" content="Play Idle Breakout - an exciting game in the Uncategorized category. Enjoy the best gaming experience with us!" />
+    <meta name="keywords" content="Idle Breakout, Uncategorized, online games, free games, play games" />
+    <meta name="author" content="Geco Games" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.png" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/animate.min.css" />
+    <link rel="stylesheet" href="../css/magnific-popup.css" />
+    <link rel="stylesheet" href="../css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="../css/odometer.css" />
+    <link rel="stylesheet" href="../css/aos.css" />
+    <link rel="stylesheet" href="../css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="../css/meanmenu.css" />
+    <link rel="stylesheet" href="../css/slick.css" />
+    <link rel="stylesheet" href="../css/default.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <link rel="stylesheet" href="../css/custom-styles.css" />
+    <link rel="canonical" href="https://school6x.github.io/games/idle-breakout" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "VideoGame",
+        "name": "Idle Breakout",
+        "genre": "Uncategorized",
+        "url": "https://school6x.github.io/games/idle-breakout",
+        "image": "../data/img/thumbs/idle-breakout_1.webp",
+        "description": "Play Idle Breakout - an exciting game in the Uncategorized category."
+      }
+    </script>
+    <style>
+      .background-blur {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('../data/img/thumbs/idle-breakout_1.webp');
+        background-size: cover;
+        background-position: center;
+        filter: blur(5px);
+        z-index: 1;
+        opacity: 0.5;
+      }
+      .game-overlay {
+        position: relative;
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .play-game-button {
+        position: absolute;
+        z-index: 10;
+        padding: 15px 30px;
+        font-size: 20px;
+        color: #0b0b0b;
+        background-color: #e4a101;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      .play-game-button:hover {
+        background-color: #544d3c;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- preloader -->
+    <div id="preloader">
+      <div id="loading-center">
+        <div id="loading-center-absolute">
+          <img src="../img/icon/preloader.svg" alt="Loading..." />
+        </div>
+      </div>
+    </div>
+    <!-- preloader-end -->
+
+    <!-- header-area -->
+    <header>
+      <div class="header-top-area s-header-top-area d-none d-lg-block">
+        <div class="container-fluid s-container-full-padding">
+          <div class="row align-items-center">
+            <div class="col-lg-6 d-none d-lg-block">
+              <div class="header-top-offer">
+                <p>Connect with us</p>
+                <span class="coming-time" data-countdown="2021/3/15"></span>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="header-top-right">
+                <div class="header-social">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="header-top-action">
+                  <ul>
+                    <li>
+                      <div class="header-top-mail">
+                        <p>
+                          <span>|</span><i class="far fa-envelope"></i><a href="#"><span class="__cf_email__">retrobowl.click</span></a>
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="sticky-header" class="transparent-header">
+        <div class="container-fluid s-container-full-padding">
+          <div class="row">
+            <div class="col-12">
+              <div class="main-menu menu-style-two">
+                <nav>
+                  <div class="logo">
+                    <a href="../index.html"><img src="../img/logo/logo.png" alt="Geco Logo" /></a>
+                  </div>
+                  <div id="mobile-menu" class="navbar-wrap d-none d-lg-flex">
+                    <ul>
+                      <li><a href="../index.html">Home</a></li>
+                      <li><a href="#">Hot Games</a>
+                        <ul class="submenu">
+                          <li><a href="#">Game 1</a></li>
+                          <li><a href="#">Game 2</a></li>
+                          <li><a href="#">Game 3</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="../contact.html">Contact</a></li>
+                      <li><a href="../terms.html">Terms</a></li>
+                      <li><a href="../privacy.html">Privacy</a></li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+              <div class="mobile-menu"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    </header>
+    <!-- header-area-end -->
+
+    <!-- main-area -->
+    <main class="latest-match-bg">
+      <!-- breadcrumb-area -->
+      <section class="breadcrumb-area breadcrumb-bg third-breadcrumb-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="breadcrumb-content text-center">
+                <h2>Play <span id="game-title">Idle Breakout</span></h2>
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                    <li id="game-title" class="breadcrumb-item active" aria-current="page">Idle Breakout</li>
+                  </ol>
+                </nav>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- breadcrumb-area-end -->
+
+      <!-- blog-area -->
+      <section class="blog-area latest-match-bg pt-40 pb-90">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="game-meta">
+                <ul>
+                  <h3>Category: <span id="game-category">Uncategorized</span></h3>
+                </ul>
+              </div>
+              <div class="background-blur"></div>
+              <div class="game-overlay">
+                <button class="play-game-button" onclick="loadGame('https://unblockedgamesfree.github.io/idle-breakout/')">Play Game</button>
+                <iframe id="game-iframe" src="" style="width: 100%; height: 100%; border: none;"></iframe>
+              </div>
+            </div>
+            <div class="col-lg-12 pt-40">
+              <!-- <div class="hot-game-content">
+                <div class="hot-game-item hot-game" onclick="window.open('https://retrobowl.click', '_blank')">
+                  <img src="https://retrobowl.click/wp-content/uploads/2024/03/retro-bowl1jpg.png" class="float-icon" alt="Retro Bowl">
+                  <button class="hot-game-close">&times;</button>
+                </div>
+              </div> -->
+              <div class="row justify-content-center">
+                <div class="col-xl-6 col-lg-8">
+                  <div
+                    class="section-title title-style-three white-title text-center mb-70"
+                  >
+                    <h2><span>Related Games</span></h2>
+                    <p>
+                      Discover a variety of free unblocked games that you can play
+                      online without any restrictions. Enjoy endless fun and
+                      entertainment with our collection.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div id="related-games" class="related-games-list">
+                
+    <div class="related-game">
+      <img src="../data/img/thumbs/zombie-killer.webp" alt="Zombie Killer" style="width: 100px; height: auto;">
+      <h4>Zombie Killer</h4>
+      <a href="zombie-killer.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/onion-boy.webp" alt="Onion Boy" style="width: 100px; height: auto;">
+      <h4>Onion Boy</h4>
+      <a href="onion-boy.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/cat-gunner-super-zombie-shoot.webp" alt="Cat Gunner Super Zombie Shoot" style="width: 100px; height: auto;">
+      <h4>Cat Gunner Super Zombie Shoot</h4>
+      <a href="cat-gunner-super-zombie-shoot.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/lethal-sniper-3d-army-soldier.webp" alt="Lethal Sniper 3d Army Soldier" style="width: 100px; height: auto;">
+      <h4>Lethal Sniper 3d Army Soldier</h4>
+      <a href="lethal-sniper-3d-army-soldier.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/doodle-jump_1.webp" alt="Doodle Jump" style="width: 100px; height: auto;">
+      <h4>Doodle Jump</h4>
+      <a href="doodle-jump.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/lovely-fox.webp" alt="Lovely Fox" style="width: 100px; height: auto;">
+      <h4>Lovely Fox</h4>
+      <a href="lovely-fox.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/drunken-duel.webp" alt="Drunken Duel" style="width: 100px; height: auto;">
+      <h4>Drunken Duel</h4>
+      <a href="drunken-duel.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/rocket-soccer-derby.webp" alt="Rocket Soccer Derby" style="width: 100px; height: auto;">
+      <h4>Rocket Soccer Derby</h4>
+      <a href="rocket-soccer-derby.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/fortride-open-world.webp" alt="Fortride Open World" style="width: 100px; height: auto;">
+      <h4>Fortride Open World</h4>
+      <a href="fortride-open-world.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/ping-pong-html5.webp" alt="Ping Pong Html5" style="width: 100px; height: auto;">
+      <h4>Ping Pong Html5</h4>
+      <a href="ping-pong-html5.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/merge-party.webp" alt="Merge Party" style="width: 100px; height: auto;">
+      <h4>Merge Party</h4>
+      <a href="merge-party.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/traffic-escape.webp" alt="Traffic Escape" style="width: 100px; height: auto;">
+      <h4>Traffic Escape</h4>
+      <a href="traffic-escape.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/idle-ants.webp" alt="Idle Ants" style="width: 100px; height: auto;">
+      <h4>Idle Ants</h4>
+      <a href="idle-ants.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/ballhitio.webp" alt="Ballhitio" style="width: 100px; height: auto;">
+      <h4>Ballhitio</h4>
+      <a href="ballhitio.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/highway-traffic.webp" alt="Highway Traffic" style="width: 100px; height: auto;">
+      <h4>Highway Traffic</h4>
+      <a href="highway-traffic.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/battleboatsio.webp" alt="Battleboatsio" style="width: 100px; height: auto;">
+      <h4>Battleboatsio</h4>
+      <a href="battleboatsio.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/tetris-99.webp" alt="Tetris 99" style="width: 100px; height: auto;">
+      <h4>Tetris 99</h4>
+      <a href="tetris-99.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/tetris.webp" alt="Tetris" style="width: 100px; height: auto;">
+      <h4>Tetris</h4>
+      <a href="tetris.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/noob-drive.webp" alt="Noob Drive" style="width: 100px; height: auto;">
+      <h4>Noob Drive</h4>
+      <a href="noob-drive.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/supernova.webp" alt="Supernova" style="width: 100px; height: auto;">
+      <h4>Supernova</h4>
+      <a href="supernova.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/fireboy-and-watergirl-5-elements.webp" alt="Fireboy And Watergirl 5 Elements" style="width: 100px; height: auto;">
+      <h4>Fireboy And Watergirl 5 Elements</h4>
+      <a href="fireboy-and-watergirl-5-elements.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/battle-wheels.webp" alt="Battle Wheels" style="width: 100px; height: auto;">
+      <h4>Battle Wheels</h4>
+      <a href="battle-wheels.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/cave-blast.webp" alt="Cave Blast" style="width: 100px; height: auto;">
+      <h4>Cave Blast</h4>
+      <a href="cave-blast.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/prismo-coloring.webp" alt="Prismo Coloring" style="width: 100px; height: auto;">
+      <h4>Prismo Coloring</h4>
+      <a href="prismo-coloring.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/ape-sling.webp" alt="Ape Sling" style="width: 100px; height: auto;">
+      <h4>Ape Sling</h4>
+      <a href="ape-sling.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/mad-truck-challenge-special.webp" alt="Mad Truck Challenge Special" style="width: 100px; height: auto;">
+      <h4>Mad Truck Challenge Special</h4>
+      <a href="mad-truck-challenge-special.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/bacon-may-die.webp" alt="Bacon May Die" style="width: 100px; height: auto;">
+      <h4>Bacon May Die</h4>
+      <a href="bacon-may-die.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/minesweeper_1.webp" alt="Minesweeper" style="width: 100px; height: auto;">
+      <h4>Minesweeper</h4>
+      <a href="minesweeper.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/battlestick.webp" alt="Battlestick" style="width: 100px; height: auto;">
+      <h4>Battlestick</h4>
+      <a href="battlestick.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/ludo-multiplayer.webp" alt="Ludo Multiplayer" style="width: 100px; height: auto;">
+      <h4>Ludo Multiplayer</h4>
+      <a href="ludo-multiplayer.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/gold-digger-frvr.webp" alt="Gold Digger Frvr" style="width: 100px; height: auto;">
+      <h4>Gold Digger Frvr</h4>
+      <a href="gold-digger-frvr.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/brutalmaniaio-brutal-mania.webp" alt="Brutalmaniaio Brutal Mania" style="width: 100px; height: auto;">
+      <h4>Brutalmaniaio Brutal Mania</h4>
+      <a href="brutalmaniaio-brutal-mania.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/skibidi-shooter.webp" alt="Skibidi Shooter" style="width: 100px; height: auto;">
+      <h4>Skibidi Shooter</h4>
+      <a href="skibidi-shooter.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/master-chess.webp" alt="Master Chess" style="width: 100px; height: auto;">
+      <h4>Master Chess</h4>
+      <a href="master-chess.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/moto-space-racing-2-player.webp" alt="Moto Space Racing 2 Player" style="width: 100px; height: auto;">
+      <h4>Moto Space Racing 2 Player</h4>
+      <a href="moto-space-racing-2-player.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/tomb-of-the-mask_1.webp" alt="Tomb Of The Mask" style="width: 100px; height: auto;">
+      <h4>Tomb Of The Mask</h4>
+      <a href="tomb-of-the-mask.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/slope-game.webp" alt="Slope Game" style="width: 100px; height: auto;">
+      <h4>Slope Game</h4>
+      <a href="slope-game.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/happy-room.webp" alt="Happy Room" style="width: 100px; height: auto;">
+      <h4>Happy Room</h4>
+      <a href="happy-room.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/balloonsio.webp" alt="Balloonsio" style="width: 100px; height: auto;">
+      <h4>Balloonsio</h4>
+      <a href="balloonsio.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/grindcraft.webp" alt="Grindcraft" style="width: 100px; height: auto;">
+      <h4>Grindcraft</h4>
+      <a href="grindcraft.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/cars-thief.webp" alt="Cars Thief" style="width: 100px; height: auto;">
+      <h4>Cars Thief</h4>
+      <a href="cars-thief.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/truck-loader.webp" alt="Truck Loader" style="width: 100px; height: auto;">
+      <h4>Truck Loader</h4>
+      <a href="truck-loader.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/bad-ice-cream-2.webp" alt="Bad Ice Cream 2" style="width: 100px; height: auto;">
+      <h4>Bad Ice Cream 2</h4>
+      <a href="bad-ice-cream-2.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/big-tall-small.webp" alt="Big Tall Small" style="width: 100px; height: auto;">
+      <h4>Big Tall Small</h4>
+      <a href="big-tall-small.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/09052024/google-feud.webp" alt="Google Feud" style="width: 100px; height: auto;">
+      <h4>Google Feud</h4>
+      <a href="google-feud.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/google-snake_1.webp" alt="Google Snake" style="width: 100px; height: auto;">
+      <h4>Google Snake</h4>
+      <a href="google-snake.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/slope-tunnel.webp" alt="Slope Tunnel" style="width: 100px; height: auto;">
+      <h4>Slope Tunnel</h4>
+      <a href="slope-tunnel.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/merge-cakes.webp" alt="Merge Cakes" style="width: 100px; height: auto;">
+      <h4>Merge Cakes</h4>
+      <a href="merge-cakes.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/level-devil.webp" alt="Level Devil" style="width: 100px; height: auto;">
+      <h4>Level Devil</h4>
+      <a href="level-devil.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/squish-run.webp" alt="Squish Run" style="width: 100px; height: auto;">
+      <h4>Squish Run</h4>
+      <a href="squish-run.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="w3n-float-container">
+        <a href="https://retrobowl.click" target="_blank" rel="noopener" class="float-wrapper">
+        <button class="w3n-toggle-btn" onclick="toggleFloat(event)" title="Close">×</button>
+        <img src="https://retrobowl.me/wp-content/uploads/2023/08/fav-50x50.png" alt="Retro Bowl" class="float-icon" loading="lazy">
+        <div class="w3n-status-badge">HOT</div>
+        <div class="smart-tooltip">
+          <h4>Retro Bowl</h4>
+          <p>Experience the ultimate retro football gaming experience! Lead your team to victory in this classic-style sports simulation.</p></div>
+        </a>
+      </div>
+      <!-- blog-area-end -->
+    </main>
+    <!-- main-area-end -->
+
+    <!-- footer-area -->
+    <footer>
+      <div class="footer-top footer-bg s-footer-bg">
+        <!-- newsletter-area -->
+        <div class="newsletter-area s-newsletter-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="newsletter-wrap">
+                  <div class="section-title newsletter-title">
+                    <h2>Our <span>Newsletter</span></h2>
+                  </div>
+                  <div class="newsletter-form">
+                    <form action="#">
+                      <div class="newsletter-form-grp">
+                        <i class="far fa-envelope"></i>
+                        <input type="email" placeholder="Enter your email..." />
+                      </div>
+                      <button>SUBSCRIBE <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- newsletter-area-end -->
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="footer-widget mb-50">
+                <div class="footer-logo mb-35">
+                  <a href="../index.html"><img src="../img/logo/logo.png" alt="" /></a>
+                </div>
+                <div class="footer-text">
+                  <p>Play Online Unblocked Games For Free</p>
+                  <div class="footer-contact">
+                    <ul>
+                      <li><i class="fas fa-map-marker-alt"></i><span>Address : </span>PO Box W75 Street lan West new queens</li>
+                      <li><i class="fas fa-headphones"></i><span>Phone : </span>+24 1245 654 235</li>
+                      <li><i class="fas fa-envelope-open"></i><span>Email : </span><a href="#" class="__cf_email__">retrobowl.click</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-sm-6">
+              <div class="footer-widget mb-50">
+                <div class="fw-title mb-35">
+                  <h5>Partners</h5>
+                </div>
+                <div class="fw-link">
+                  <ul>
+                    <li><a href="#">Partner 1</a></li>
+                    <li><a href="#">Partner 2</a></li>
+                    <li><a href="#">Partner 3</a></li>
+                    <li><a href="#">Partner 4</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-sm-6">
+              <div class="footer-widget mb-50">
+                <div class="fw-title mb-35">
+                  <h5>Need Help?</h5>
+                </div>
+                <div class="fw-link">
+                  <ul>
+                    <li><a href="../terms.html">Terms & Conditions</a></li>
+                    <li><a href="../privacy.html">Privacy Policy</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                    <li><a href="../about-us.html">About Us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="footer-widget mb-50">
+                <div class="fw-title mb-35">
+                  <h5>Follow us</h5>
+                </div>
+                <div class="footer-social">
+                  <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="footer-widget mb-50">
+                <div class="fw-title mb-35">
+                  <h5>Newsletter Sign Up</h5>
+                </div>
+                <div class="footer-newsletter">
+                  <form action="#">
+                    <input type="text" placeholder="Enter your email" />
+                    <button><i class="fas fa-rocket"></i></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-fire"><img src="../img/images/footer_fire.png" alt="Footer Fire" /></div>
+        <div class="footer-fire footer-fire-right"><img src="../img/images/footer_fire.png" alt="Footer Fire Right" /></div>
+      </div>
+      <div class="copyright-wrap s-copyright-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <div class="copyright-text">
+                <p>Copyright © 2025 <a href="#">Geco</a> All Rights Reserved.</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 d-none d-md-block">
+              <div class="payment-method-img text-right"><img src="../img/images/card_img.png" alt="Payment Methods" /></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer-area-end -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="../js/isotope.pkgd.min.js"></script>
+    <script src="../js/jquery.meanmenu.min.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script src="../js/aos.js"></script>
+    <script src="../js/jquery.lettering.js"></script>
+    <script src="../js/jquery.textillate.js"></script>
+    <script src="../js/jquery.odometer.min.js"></script>
+    <script src="../js/jquery.appear.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/jquery.countdown.min.js"></script>
+    <script src="../js/jquery.scrollUp.min.js"></script>
+    <script src="../js/imagesloaded.pkgd.min.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/custom-scripts.js"></script>
+  </body>
+</html>

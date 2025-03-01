@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <!--  Sat, 01 Mar 2025 05:57:51 GMT -->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Monkey Mart - Play HTML5 Games For Free</title>
+    <meta name="description" content="Play Monkey Mart - an exciting game in the Uncategorized category. Enjoy the best gaming experience with us!" />
+    <meta name="keywords" content="Monkey Mart, Uncategorized, online games, free games, play games" />
+    <meta name="author" content="Geco Games" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.png" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/animate.min.css" />
+    <link rel="stylesheet" href="../css/magnific-popup.css" />
+    <link rel="stylesheet" href="../css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="../css/odometer.css" />
+    <link rel="stylesheet" href="../css/aos.css" />
+    <link rel="stylesheet" href="../css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="../css/meanmenu.css" />
+    <link rel="stylesheet" href="../css/slick.css" />
+    <link rel="stylesheet" href="../css/default.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+    <link rel="stylesheet" href="../css/custom-styles.css" />
+    <link rel="canonical" href="https://school6x.github.io/games/monkey-mart" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "VideoGame",
+        "name": "Monkey Mart",
+        "genre": "Uncategorized",
+        "url": "https://school6x.github.io/games/monkey-mart",
+        "image": "../data/img/thumbs/monkey-mart_1.webp",
+        "description": "Play Monkey Mart - an exciting game in the Uncategorized category."
+      }
+    </script>
+    <style>
+      .background-blur {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('../data/img/thumbs/monkey-mart_1.webp');
+        background-size: cover;
+        background-position: center;
+        filter: blur(5px);
+        z-index: 1;
+        opacity: 0.5;
+      }
+      .game-overlay {
+        position: relative;
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .play-game-button {
+        position: absolute;
+        z-index: 10;
+        padding: 15px 30px;
+        font-size: 20px;
+        color: #0b0b0b;
+        background-color: #e4a101;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      .play-game-button:hover {
+        background-color: #544d3c;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- preloader -->
+    <div id="preloader">
+      <div id="loading-center">
+        <div id="loading-center-absolute">
+          <img src="../img/icon/preloader.svg" alt="Loading..." />
+        </div>
+      </div>
+    </div>
+    <!-- preloader-end -->
+
+    <!-- header-area -->
+    <header>
+      <div class="header-top-area s-header-top-area d-none d-lg-block">
+        <div class="container-fluid s-container-full-padding">
+          <div class="row align-items-center">
+            <div class="col-lg-6 d-none d-lg-block">
+              <div class="header-top-offer">
+                <p>Connect with us</p>
+                <span class="coming-time" data-countdown="2021/3/15"></span>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="header-top-right">
+                <div class="header-social">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="header-top-action">
+                  <ul>
+                    <li>
+                      <div class="header-top-mail">
+                        <p>
+                          <span>|</span><i class="far fa-envelope"></i><a href="#"><span class="__cf_email__">retrobowl.click</span></a>
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="sticky-header" class="transparent-header">
+        <div class="container-fluid s-container-full-padding">
+          <div class="row">
+            <div class="col-12">
+              <div class="main-menu menu-style-two">
+                <nav>
+                  <div class="logo">
+                    <a href="../index.html"><img src="../img/logo/logo.png" alt="Geco Logo" /></a>
+                  </div>
+                  <div id="mobile-menu" class="navbar-wrap d-none d-lg-flex">
+                    <ul>
+                      <li><a href="../index.html">Home</a></li>
+                      <li><a href="#">Hot Games</a>
+                        <ul class="submenu">
+                          <li><a href="#">Game 1</a></li>
+                          <li><a href="#">Game 2</a></li>
+                          <li><a href="#">Game 3</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="../contact.html">Contact</a></li>
+                      <li><a href="../terms.html">Terms</a></li>
+                      <li><a href="../privacy.html">Privacy</a></li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+              <div class="mobile-menu"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    </header>
+    <!-- header-area-end -->
+
+    <!-- main-area -->
+    <main class="latest-match-bg">
+      <!-- breadcrumb-area -->
+      <section class="breadcrumb-area breadcrumb-bg third-breadcrumb-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="breadcrumb-content text-center">
+                <h2>Play <span id="game-title">Monkey Mart</span></h2>
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                    <li id="game-title" class="breadcrumb-item active" aria-current="page">Monkey Mart</li>
+                  </ol>
+                </nav>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- breadcrumb-area-end -->
+
+      <!-- blog-area -->
+      <section class="blog-area latest-match-bg pt-40 pb-90">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="game-meta">
+                <ul>
+                  <h3>Category: <span id="game-category">Uncategorized</span></h3>
+                </ul>
+              </div>
+              <div class="background-blur"></div>
+              <div class="game-overlay">
+                <button class="play-game-button" onclick="loadGame('https://unblockedgamesfree.github.io/monkey-mart/')">Play Game</button>
+                <iframe id="game-iframe" src="" style="width: 100%; height: 100%; border: none;"></iframe>
+              </div>
+            </div>
+            <div class="col-lg-12 pt-40">
+              <!-- <div class="hot-game-content">
+                <div class="hot-game-item hot-game" onclick="window.open('https://retrobowl.click', '_blank')">
+                  <img src="https://retrobowl.click/wp-content/uploads/2024/03/retro-bowl1jpg.png" class="float-icon" alt="Retro Bowl">
+                  <button class="hot-game-close">&times;</button>
+                </div>
+              </div> -->
+              <div class="row justify-content-center">
+                <div class="col-xl-6 col-lg-8">
+                  <div
+                    class="section-title title-style-three white-title text-center mb-70"
+                  >
+                    <h2><span>Related Games</span></h2>
+                    <p>
+                      Discover a variety of free unblocked games that you can play
+                      online without any restrictions. Enjoy endless fun and
+                      entertainment with our collection.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div id="related-games" class="related-games-list">
+                
+    <div class="related-game">
+      <img src="../data/img/thumbs/tiger-simulator-3d.webp" alt="Tiger Simulator 3d" style="width: 100px; height: auto;">
+      <h4>Tiger Simulator 3d</h4>
+      <a href="tiger-simulator-3d.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/moto-x3m-2.webp" alt="Moto X3m 2" style="width: 100px; height: auto;">
+      <h4>Moto X3m 2</h4>
+      <a href="moto-x3m-2.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/rocket-soccer-derby.webp" alt="Rocket Soccer Derby" style="width: 100px; height: auto;">
+      <h4>Rocket Soccer Derby</h4>
+      <a href="rocket-soccer-derby.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/starblast.webp" alt="Starblast" style="width: 100px; height: auto;">
+      <h4>Starblast</h4>
+      <a href="starblast.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/puppet-master.webp" alt="Puppet Master" style="width: 100px; height: auto;">
+      <h4>Puppet Master</h4>
+      <a href="puppet-master.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/monster-truck-racing-arena.webp" alt="Monster Truck Racing Arena" style="width: 100px; height: auto;">
+      <h4>Monster Truck Racing Arena</h4>
+      <a href="monster-truck-racing-arena.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/murder.webp" alt="Murder" style="width: 100px; height: auto;">
+      <h4>Murder</h4>
+      <a href="murder.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/stick-fighter.webp" alt="Stick Fighter" style="width: 100px; height: auto;">
+      <h4>Stick Fighter</h4>
+      <a href="stick-fighter.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/slope.webp" alt="Slope" style="width: 100px; height: auto;">
+      <h4>Slope</h4>
+      <a href="slope.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/snake.is-mlg-edition.webp" alt="Snake Is Mlg Edition" style="width: 100px; height: auto;">
+      <h4>Snake Is Mlg Edition</h4>
+      <a href="snake-is-mlg-edition.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/wizard-mike.webp" alt="Wizard Mike" style="width: 100px; height: auto;">
+      <h4>Wizard Mike</h4>
+      <a href="wizard-mike.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/zombie-zunami-online.webp" alt="Zombie Zunami Online" style="width: 100px; height: auto;">
+      <h4>Zombie Zunami Online</h4>
+      <a href="zombie-zunami-online.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/2048-suika.webp" alt="2048 Suika" style="width: 100px; height: auto;">
+      <h4>2048 Suika</h4>
+      <a href="2048-suika.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/retro-bowl-college-football.webp" alt="Retro Bowl College Football" style="width: 100px; height: auto;">
+      <h4>Retro Bowl College Football</h4>
+      <a href="retro-bowl-college-football.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/turbo-moto-racer.webp" alt="Turbo Moto Racer" style="width: 100px; height: auto;">
+      <h4>Turbo Moto Racer</h4>
+      <a href="turbo-moto-racer.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/super-tunnel-rush.webp" alt="Super Tunnel Rush" style="width: 100px; height: auto;">
+      <h4>Super Tunnel Rush</h4>
+      <a href="super-tunnel-rush.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/2-minute-football.webp" alt="2 Minute Football" style="width: 100px; height: auto;">
+      <h4>2 Minute Football</h4>
+      <a href="2-minute-football.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/minesweeper_1.webp" alt="Minesweeper" style="width: 100px; height: auto;">
+      <h4>Minesweeper</h4>
+      <a href="minesweeper.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/block-puzzle.webp" alt="Block Puzzle" style="width: 100px; height: auto;">
+      <h4>Block Puzzle</h4>
+      <a href="block-puzzle.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/blocky-trials.webp" alt="Blocky Trials" style="width: 100px; height: auto;">
+      <h4>Blocky Trials</h4>
+      <a href="blocky-trials.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/free-the-key.webp" alt="Free The Key" style="width: 100px; height: auto;">
+      <h4>Free The Key</h4>
+      <a href="free-the-key.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/super-santa-kicker.webp" alt="Super Santa Kicker" style="width: 100px; height: auto;">
+      <h4>Super Santa Kicker</h4>
+      <a href="super-santa-kicker.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/fz-snow-battle-io.webp" alt="Fz Snow Battle Io" style="width: 100px; height: auto;">
+      <h4>Fz Snow Battle Io</h4>
+      <a href="fz-snow-battle-io.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/moto-maniac-2.webp" alt="Moto Maniac 2" style="width: 100px; height: auto;">
+      <h4>Moto Maniac 2</h4>
+      <a href="moto-maniac-2.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/super-star-car.webp" alt="Super Star Car" style="width: 100px; height: auto;">
+      <h4>Super Star Car</h4>
+      <a href="super-star-car.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/slot-car-racing.webp" alt="Slot Car Racing" style="width: 100px; height: auto;">
+      <h4>Slot Car Racing</h4>
+      <a href="slot-car-racing.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/gravity-soccer.webp" alt="Gravity Soccer" style="width: 100px; height: auto;">
+      <h4>Gravity Soccer</h4>
+      <a href="gravity-soccer.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/penalty-shooters-2.webp" alt="Penalty Shooters 2" style="width: 100px; height: auto;">
+      <h4>Penalty Shooters 2</h4>
+      <a href="penalty-shooters-2.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/a-dance-of-fire-and-ice.webp" alt="A Dance Of Fire And Ice" style="width: 100px; height: auto;">
+      <h4>A Dance Of Fire And Ice</h4>
+      <a href="a-dance-of-fire-and-ice.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/super-hot.webp" alt="Super Hot" style="width: 100px; height: auto;">
+      <h4>Super Hot</h4>
+      <a href="super-hot.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/super-hexbee-merger.webp" alt="Super Hexbee Merger" style="width: 100px; height: auto;">
+      <h4>Super Hexbee Merger</h4>
+      <a href="super-hexbee-merger.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/shape-fold-html5.webp" alt="Shape Fold Html5" style="width: 100px; height: auto;">
+      <h4>Shape Fold Html5</h4>
+      <a href="shape-fold-html5.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/fox-simulator-3d.webp" alt="Fox Simulator 3d" style="width: 100px; height: auto;">
+      <h4>Fox Simulator 3d</h4>
+      <a href="fox-simulator-3d.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/blockbuster-puzzle.webp" alt="Blockbuster Puzzle" style="width: 100px; height: auto;">
+      <h4>Blockbuster Puzzle</h4>
+      <a href="blockbuster-puzzle.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/escaping-the-prison.webp" alt="Escaping The Prison" style="width: 100px; height: auto;">
+      <h4>Escaping The Prison</h4>
+      <a href="escaping-the-prison.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/detective-loupe-puzzle.webp" alt="Detective Loupe Puzzle" style="width: 100px; height: auto;">
+      <h4>Detective Loupe Puzzle</h4>
+      <a href="detective-loupe-puzzle.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/bunny-hop.webp" alt="Bunny Hop" style="width: 100px; height: auto;">
+      <h4>Bunny Hop</h4>
+      <a href="bunny-hop.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/four-in-a-row.webp" alt="Four In A Row" style="width: 100px; height: auto;">
+      <h4>Four In A Row</h4>
+      <a href="four-in-a-row.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/cricket-world-cup.webp" alt="Cricket World Cup" style="width: 100px; height: auto;">
+      <h4>Cricket World Cup</h4>
+      <a href="cricket-world-cup.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/animal-arena.webp" alt="Animal Arena" style="width: 100px; height: auto;">
+      <h4>Animal Arena</h4>
+      <a href="animal-arena.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/dreadhead-parkour.webp" alt="Dreadhead Parkour" style="width: 100px; height: auto;">
+      <h4>Dreadhead Parkour</h4>
+      <a href="dreadhead-parkour.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/slopey.webp" alt="Slopey" style="width: 100px; height: auto;">
+      <h4>Slopey</h4>
+      <a href="slopey.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/minecraft-builder.webp" alt="Minecraft Builder" style="width: 100px; height: auto;">
+      <h4>Minecraft Builder</h4>
+      <a href="minecraft-builder.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/subway-surfers-newyork.webp" alt="Subway Surfers Newyork" style="width: 100px; height: auto;">
+      <h4>Subway Surfers Newyork</h4>
+      <a href="subway-surfers-newyork.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/cookie-clicker-game-online.webp" alt="Cookie Clicker Game Online" style="width: 100px; height: auto;">
+      <h4>Cookie Clicker Game Online</h4>
+      <a href="cookie-clicker-game-online.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/dubai-police-parking-2.webp" alt="Dubai Police Parking 2" style="width: 100px; height: auto;">
+      <h4>Dubai Police Parking 2</h4>
+      <a href="dubai-police-parking-2.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/n-gon.webp" alt="N Gon" style="width: 100px; height: auto;">
+      <h4>N Gon</h4>
+      <a href="n-gon.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/nuggetroyale-io.webp" alt="Nuggetroyale Io" style="width: 100px; height: auto;">
+      <h4>Nuggetroyale Io</h4>
+      <a href="nuggetroyale-io.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/madzoong.webp" alt="Madzoong" style="width: 100px; height: auto;">
+      <h4>Madzoong</h4>
+      <a href="madzoong.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+    <div class="related-game">
+      <img src="../data/img/thumbs/dead-paradise-race-shooter.webp" alt="Dead Paradise Race Shooter" style="width: 100px; height: auto;">
+      <h4>Dead Paradise Race Shooter</h4>
+      <a href="dead-paradise-race-shooter.html" class="btn btn-style-two">Play</a>
+    </div>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="w3n-float-container">
+        <a href="https://retrobowl.click" target="_blank" rel="noopener" class="float-wrapper">
+        <button class="w3n-toggle-btn" onclick="toggleFloat(event)" title="Close">×</button>
+        <img src="https://retrobowl.me/wp-content/uploads/2023/08/fav-50x50.png" alt="Retro Bowl" class="float-icon" loading="lazy">
+        <div class="w3n-status-badge">HOT</div>
+        <div class="smart-tooltip">
+          <h4>Retro Bowl</h4>
+          <p>Experience the ultimate retro football gaming experience! Lead your team to victory in this classic-style sports simulation.</p></div>
+        </a>
+      </div>
+      <!-- blog-area-end -->
+    </main>
+    <!-- main-area-end -->
+
+    <!-- footer-area -->
+    <footer>
+      <div class="footer-top footer-bg s-footer-bg">
+        <!-- newsletter-area -->
+        <div class="newsletter-area s-newsletter-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="newsletter-wrap">
+                  <div class="section-title newsletter-title">
+                    <h2>Our <span>Newsletter</span></h2>
+                  </div>
+                  <div class="newsletter-form">
+                    <form action="#">
+                      <div class="newsletter-form-grp">
+                        <i class="far fa-envelope"></i>
+                        <input type="email" placeholder="Enter your email..." />
+                      </div>
+                      <button>SUBSCRIBE <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- newsletter-area-end -->
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="footer-widget mb-50">
+                <div class="footer-logo mb-35">
+                  <a href="../index.html"><img src="../img/logo/logo.png" alt="" /></a>
+                </div>
+                <div class="footer-text">
+                  <p>Play Online Unblocked Games For Free</p>
+                  <div class="footer-contact">
+                    <ul>
+                      <li><i class="fas fa-map-marker-alt"></i><span>Address : </span>PO Box W75 Street lan West new queens</li>
+                      <li><i class="fas fa-headphones"></i><span>Phone : </span>+24 1245 654 235</li>
+                      <li><i class="fas fa-envelope-open"></i><span>Email : </span><a href="#" class="__cf_email__">retrobowl.click</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-sm-6">
+              <div class="footer-widget mb-50">
+                <div class="fw-title mb-35">
+                  <h5>Partners</h5>
+                </div>
+                <div class="fw-link">
+                  <ul>
+                    <li><a href="#">Partner 1</a></li>
+                    <li><a href="#">Partner 2</a></li>
+                    <li><a href="#">Partner 3</a></li>
+                    <li><a href="#">Partner 4</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-sm-6">
+              <div class="footer-widget mb-50">
+                <div class="fw-title mb-35">
+                  <h5>Need Help?</h5>
+                </div>
+                <div class="fw-link">
+                  <ul>
+                    <li><a href="../terms.html">Terms & Conditions</a></li>
+                    <li><a href="../privacy.html">Privacy Policy</a></li>
+                    <li><a href="../contact.html">Contact</a></li>
+                    <li><a href="../about-us.html">About Us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="footer-widget mb-50">
+                <div class="fw-title mb-35">
+                  <h5>Follow us</h5>
+                </div>
+                <div class="footer-social">
+                  <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="footer-widget mb-50">
+                <div class="fw-title mb-35">
+                  <h5>Newsletter Sign Up</h5>
+                </div>
+                <div class="footer-newsletter">
+                  <form action="#">
+                    <input type="text" placeholder="Enter your email" />
+                    <button><i class="fas fa-rocket"></i></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-fire"><img src="../img/images/footer_fire.png" alt="Footer Fire" /></div>
+        <div class="footer-fire footer-fire-right"><img src="../img/images/footer_fire.png" alt="Footer Fire Right" /></div>
+      </div>
+      <div class="copyright-wrap s-copyright-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <div class="copyright-text">
+                <p>Copyright © 2025 <a href="#">Geco</a> All Rights Reserved.</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 d-none d-md-block">
+              <div class="payment-method-img text-right"><img src="../img/images/card_img.png" alt="Payment Methods" /></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer-area-end -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="../js/isotope.pkgd.min.js"></script>
+    <script src="../js/jquery.meanmenu.min.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script src="../js/aos.js"></script>
+    <script src="../js/jquery.lettering.js"></script>
+    <script src="../js/jquery.textillate.js"></script>
+    <script src="../js/jquery.odometer.min.js"></script>
+    <script src="../js/jquery.appear.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/jquery.countdown.min.js"></script>
+    <script src="../js/jquery.scrollUp.min.js"></script>
+    <script src="../js/imagesloaded.pkgd.min.js"></script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/custom-scripts.js"></script>
+  </body>
+</html>

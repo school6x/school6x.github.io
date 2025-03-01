@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /private/
+Allow: /games/
+Sitemap: https://school6x.github.io/games/sitemap.xml
